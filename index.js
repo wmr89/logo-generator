@@ -27,11 +27,17 @@ const questions = [
 ]
 
 const writeToFile = function (fileName, data) {
+    if(!data){
+        return
+    } else {
     fs.writeFile(fileName, data, (err) => {
         if (err) {
-            console.log('error')
-        }
+            console.log('error');
+        } else {
+            console.log('Generated logo.svg');
+        }   
     })
+}
 }
 
 function init() {
