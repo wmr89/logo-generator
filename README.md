@@ -16,13 +16,18 @@ If your README is long, add a table of contents to make it easy for users to fin
 Node.js, and inquirer are required to run this application.
 
 ## Usage
-Open the terminal for the project folder.
 
+[Video Example](https://drive.google.com/file/d/1JNkwX6sZJlvV-JsH7U4haLXk9rtpBtyE/view)
+
+Open the terminal for the project folder.
+![Screenshot of terminal initiating the project](./assets/screenshot_init.png)
 Run 'node index' in the terminal.
 
 Follow the prompts
-
+![Screen shot showing questions in terminal](./assets/screenshot_questions.png)
 A logo will be generated as "logo.svg"
+![Screenshot showing 'Generated logo.svg' response](./assets/screenshot%20logo%20generated.png)
+![Screen show of logo.svg preview](./assets/Screenshot%20logo.png)
 
 ## Credits
 Tutoring session with Jose Lopez
